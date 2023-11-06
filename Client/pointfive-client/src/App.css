@@ -1,0 +1,68 @@
+.App {
+  padding: 30px;
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header{
+  font-size: 35px;
+}
+
+.App-sub-title{
+  color:#9dac2c;
+  margin-bottom: 10px;
+}
+
+.App-events-container{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.Events-container{
+  flex-basis: 60%;
+}
+
+.Events-list{
+  height: 70vh;
+  overflow: auto;
+}
+
+.Repo-and-actor-container{
+  flex-basis: 40%;
+}
+
+.Repo-and-actor-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.Event-container{
+  margin: 0 0 10px 0;
+  padding: 10px;
+  font-size: 15px;
+  background: #35393e;
+}
+
+.Event-header{
+  color: yellow;
+}
+
+.Event-header span{
+  color: white;
+}
+
+.General-list{
+  height: 20vh;
+  overflow: auto;
+}
+
+span, a {
+  color: #d58989;
+}
+
+a:hover {
+  color: #d5bebe;
+}
